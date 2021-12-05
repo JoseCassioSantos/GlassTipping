@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body {
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    animation-name: pulse ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    background-position: cover;
+   
+    
+}
+
+.menu{
+
+    background: rgba(255,255,255,0.2);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    border-right: 3px solid lightblue;
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 0px 50px 50px 0px;
+    
+    
+}
+
+#code{
+    background:rgba(170, 168, 168, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.content{
+    
+    
+    
+}
+
+@keyframes pulse {
+    0%{ background: radial-gradient(circle, rgba(60,73,139,1) 0%, rgba(49,61,88,1) 0%) no-repeat;}
+    25%{ background: radial-gradient(circle, rgba(60,73,139,1) 0%, rgba(49,61,88,1) 25%) no-repeat;}
+    50%{ background: radial-gradient(circle, rgba(60,73,139,1) 0%, rgba(49,61,88,1) 50%) no-repeat;}
+    75%{ background: radial-gradient(circle, rgba(60,73,139,1) 0%, rgba(49,61,88,1) 75%) no-repeat;}
+    100%{ background: radial-gradient(circle, rgba(60,73,139,1) 0%, rgba(49,61,88,1) 100%) no-repeat;}
+    
+}
+
+.balls{
+    content: '';
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);   
+    filter: blur(50%);
+}
+
+
+
+
+@keyframes luna {
+    from{opacity: 0;}
+    to{opacity: 1; }
+
+    
+}
+
+
+#ball1{
+
+position: absolute;
+z-index: 1;
+height: 17px;
+width: 17px;
+margin-top: 110px;
+margin-left: 150px;
+animation-name: luna ;
+animation-delay: 10s;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+
+}
+
+#ball2{
+
+position: absolute;
+z-index: 1;
+height: 13px;
+width: 13px;
+margin-top: 130px;
+margin-left: 250px;
+animation-name: luna ;
+animation-delay: 5s;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+
+    
+}
+
+#ball3{
+
+position: absolute;
+z-index: 1;
+height: 12px;
+width: 12px;
+margin-top: 170px;
+margin-left: 350px;
+animation-name: luna ;
+animation-delay: 5s;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+        
+}
+
+#ball4{
+
+position: absolute;
+z-index: 1;
+height: 20px;
+width: 20px;
+margin-top: 170px;
+margin-left: 290px;
+animation-name: luna ;
+animation-delay: 8s;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+            
+}
+
+#ball5{
+
+position: absolute;
+z-index: 11;
+height: 18px;
+width: 18px;
+margin-top: 210px;
+margin-left: 122px;
+animation-name: luna ;
+animation-delay: 9s;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+                
+}
+
+#ball6{
+
+position: absolute;
+z-index: 1;
+height: 15px;
+width: 15px;
+margin-top: 360px;
+margin-left: 315px;
+animation-name: luna ;
+animation-delay: 5s;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 5px rgba(170, 168, 168, 0.5)
+                    
+}
+#ball7{
+
+ position: absolute;
+ z-index: 1;
+ height: 15px;
+ width: 15px;
+ margin-top: 510px;
+ margin-left: 250px;
+ animation-name: luna ;
+ animation-delay: 5s;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+ animation-direction: reverse;
+ box-shadow: 1px 1px 5px rgba(170, 168, 168, 0.5)
+                        
+ }
+
+#ball8{
+
+position: absolute;
+z-index: 1;
+height: 16px;
+width: 16px;
+margin-top: 530px;
+margin-left: 790px;
+animation-name: luna ;
+animation-delay: 5s;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 5px rgba(170, 168, 168, 0.5)
+                            
+}
+
+#ball9{
+
+ position: absolute;
+ z-index: 1;
+ height: 12px;
+ width: 12px;
+ margin-top: 122px;
+ margin-left: 890px;
+ animation-name: luna ;
+ animation-delay: 15s;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+ animation-direction: reverse;
+ box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+                                
+ }
+                                
+#ball10{
+
+position: absolute;
+z-index: 1;
+height: 11px;
+width: 11px;
+margin-top: 318px;
+margin-left: 530px;
+animation-name: luna ;
+animation-delay: 5s;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+}
+
+#ball11{
+
+position: absolute;
+z-index: 1;
+height: 15px;
+width: 15px;
+margin-top: 480px;
+margin-left: 70px;
+animation-name: luna ;
+animation-delay: 12s;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+}
+
+#ball12{
+
+    position: absolute;
+    z-index: 1;
+    height: 13px;
+    width: 13px;
+    margin-top: 530px;
+    margin-left: 550px;
+    animation-name: luna ;
+    animation-delay: 5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+    
+        
+    }
+    
+    #ball13{
+    
+    position: absolute;
+    z-index: 1;
+    height: 12px;
+    width: 12px;
+    margin-top: 370px;
+    margin-left: 750px;
+    animation-name: luna ;
+    animation-delay: 5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+            
+    }
+    
+    #ball14{
+    
+    position: absolute;
+    z-index: 1;
+    height: 20px;
+    width: 20px;
+    margin-top: 170px;
+    margin-left: 1090px;
+    animation-name: luna ;
+    animation-delay: 8s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+                
+    }
+    
+    #ball15{
+    
+    position: absolute;
+    z-index: 1;
+    height: 18px;
+    width: 18px;
+    margin-top: 110px;
+    margin-left: 622px;
+    animation-name: luna ;
+    animation-delay: 9s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5)
+                    
+    }
+    
+    #ball16{
+    
+    position: absolute;
+    z-index: 1;
+    height: 15px;
+    width: 15px;
+    margin-top: 260px;
+    margin-left: 995px;
+    animation-name: luna ;
+    animation-delay: 5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 5px rgba(170, 168, 168, 0.5)
+                        
+    }
+    #ball17{
+    
+     position: absolute;
+     z-index: 1;
+     height: 15px;
+     width: 15px;
+     margin-top: 610px;
+     margin-left: 150px;
+     animation-name: luna ;
+     animation-delay: 5s;
+     animation-duration: 8s;
+     animation-iteration-count: infinite;
+     animation-direction: reverse;
+     box-shadow: 1px 1px 5px rgba(170, 168, 168, 0.5)
+                            
+     }
+    
+    #ball18{
+    
+    position: absolute;
+    z-index: 1;
+    height: 16px;
+    width: 16px;
+    margin-top: 230px;
+    margin-left: 690px;
+    animation-name: luna ;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 5px rgba(170, 168, 168, 0.5)
+                                
+    }
+    
+    
+    #ball19{
+    
+    position: absolute;
+    z-index: 1;
+    height: 15px;
+    width: 15px;
+    margin-top: 580px;
+    margin-left: 1070px;
+    animation-name: luna ;
+    animation-delay: 12s;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5);
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: none;
+
+      }
+      
+      
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px  black;
+        border-radius: 10px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb {
+        background: rgba(116, 114, 114, 0.5);
+        border-radius: 10px;
+      }
